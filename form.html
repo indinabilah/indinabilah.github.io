@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up Form "My Book"</title>
+  </head>
+  <body>
+    <h1>Buat Account Baru!</h1>
+    <form class="form" action="welcome.html" method="post">
+      <h3>Sign Up Form</h3>
+      <div class="form">
+        <label for="1name">First Name: </label>
+        <input type="text" id="1name">
+        <br>
+        <label for="2name">Last Name: </label>
+        <input type="text" id="2name">
+        <br>
+        <label for="gender">Gender:</label>
+        <br>
+        <input type="radio" name="male" id="male" value="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="female" id="female" value="female">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" name="other" id="other" value="other">
+        <label for="other">Other</label>
+        <br>
+        <label for="nationality">Nationality</label>
+        <br>
+        <select name="nationality" id="nationality">
+          <option value="Indonesian">Indonesian</option>
+          <option value="Malaysian">Malaysian</option>
+          <option value="Singapore">Singapore</option>
+        </select>
+        <br>
+        <section class="language">
+          <span>Language Spoken:</span>
+          <br>
+          <input type="checkbox" name="language" id="indonesia" value="indonesia">
+          <label for="indonesia">Bahasa Indonesia</label>
+          <br>
+          <input type="checkbox" name="language" id="english" value="english">
+          <label for="english">English</label>
+          <br>
+          <input type="checkbox" name="language" id="other" value="other">
+          <label for="other">Other</label>
+        </section>
+        <section class="bio">
+          <span>Bio:</span>
+          <br>
+          <textarea name="bio" rows="5" cols="10"></textarea>
+        </section>
+      </div>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
