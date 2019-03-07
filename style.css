@@ -1,56 +1,62 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: rgb(248, 248, 255);
+  background-color: black;
 }
 
 header {
-  background-color: #000;
+  background-color: #fff;
   position: fixed;
   width:100%;
-  z-index:4;
+  z-index:5;
 }
+
 
 nav {
   margin: 0;
   padding: 20px 0;
-  font-style: oblique;
+  font-style: normal;
   text-align: center;
-  color: #fff;
+  color: #000;
+  font-family: 'Athiti', sans-serif;
 }
 
 main {
   text-align: center;
   position: relative;
-  top: 80px;
+  top: 70px;
   height: 100px;
 }
 
 main h1 {
   color: white;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 70px;
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 400;
+  font-size: 60px;
   margin-top: 0px;
-  padding-top: 80px;
-  margin-bottom: 80px;
+  padding-top: 70px;
+  margin-bottom: 70px;
 }
 
+
 footer {
-  background-color: #333;
-  color: #fff;
-  padding: 30px 0;
+  background-color: #fff;
+  color: #000;
+  padding: 5px 0;
   position: fixed;
   width:100%;
-  z-index:1;
+  z-index:5;
   bottom:0;
+  opacity: 0.75;
 }
 
 footer p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Philosopher', sans-serif;
   text-transform: uppercase;
   font-size: 11px;
+  text-align: center;
 }
+
 
 .container {
   max-width: 940px;
@@ -68,52 +74,104 @@ footer p {
   margin: 0 auto;
   padding-top: 350px;
   padding-bottom: 100px;
-  text-align: center;;
+  text-align: center;
 }
 
 .supporting .col {
-  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-family: 'Montserrat Alternates', sans-serif;
   text-align: center;
   width: 200px;
   height: 150px;
 }
 
-.supporting img {
-  height: 32px;
+.supporting .profile{
+  color: white;
 }
 
-.supporting h2 {
-  font-weight: 600;
-  font-size: 23px;
-  text-transform: uppercase;
+.supporting .space{
+  color: pink;
 }
 
-.supporting p {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  padding: 0 20px;
-  margin-bottom: 20px;
-}
+
 
 .supporting a {
-  background-color: white;
-  color: #333333;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 12px;
+  background-color: pink;
+  color: #000;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
   letter-spacing: 1.3px;
   text-decoration: none;
-  text-transform: uppercase;
-  padding: 5px;
-  margin-bottom: 5px;
-  border: 2px solid #333333;
+  text-transform: lowercase;
+  padding: 3px;
+  margin-bottom: 3px;
+  border: 2px dotted rgb(249, 19, 147);
 }
 
-.ft{
-  text-align: center;
+.supporting .box{
+  border-radius: 20px;
 }
-
-.me{
-  
+.supporting .box .box-4{
+  border-radius: 20px;
+  color: GoldenRod;
+  background: rgb(250, 232, 250);
+  height: 20px;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.supporting .box .box-1{
+  border-radius: 20px;
+  color: GoldenRod;
+  background: rgb(250, 232, 241);
+  height: 20px;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.supporting .box .box-2{
+  border-radius: 20px;
+  color: GoldenRod;
+  background: rgb(250, 232, 250);
+  height: 20px;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.supporting .box .box-3{
+  border-radius: 20px;
+  color: GoldenRod;
+  background: rgb(240, 248, 255);
+  height: 20px;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.supporting .box .box-4{
+  border-radius: 20px;
+  color: GoldenRod;
+  background: rgb(189, 207, 225);
+  height: 20px;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.supporting .box .box-5{
+  border-radius: 20px;
+  color: GoldenRod;
+  background: rgb(189, 207, 225);
+  height: 20px;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.supporting .box .box-6{
+  border-radius: 20px;
+  color: GoldenRod;
+  background: rgba(189, 207, 225, 0.75);
+  height: 20px;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
