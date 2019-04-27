@@ -18,7 +18,7 @@ function createListElement() {
 	addCloseEvent(li)
 }
 
-function addShopList() {
+function addWishList() {
 	if (inputLength() > 0) {
 		createListElement()
 	}
@@ -30,41 +30,39 @@ function addCreateList(event) {
 	}
 }
 
-function addToggleEvent(element) {
+function addToggleEvent(btnEl) {
     // turn off text yg sudah kebeli
-	element.addEventListener("click", function() {
-		element.classList.toggle("done")
+	btnEl.addEventListener("click", function() {
+		btnEl.classList.toggle("done")
 	});
 }
 
-function addCloseEvent(element) {
+function addCloseEvent(btnEl) {
 
     // menyimpan text yang ada di dalam li dan hapus
-	var ListOriginalValue = element.innerHTML
-    element.innerHTML = ""
+	var ListOriginalValue = btnEl.innerHTML
+    btnEl.innerHTML = ""
 
     // create removeBtn di awal
 	var createButton = document.createElement("button")
 	createButton.classList.add("removeBtn")
 	createButton.appendChild(document.createTextNode("X"))
-	element.appendChild(createButton)
+	btnEl.appendChild(createButton)
 
+    
 	// tampil text input 
-	element.innerHTML = element.innerHTML + " " + ListOriginalValue
+	btnEl.innerHTML = btnEl.innerHTML + " " + ListOriginalValue
 
 	// generate removeBtn
-	element.querySelector("button").addEventListener("click", function() {
-		element.remove()
+	btnEl.querySelector("button").addEventListener("click", function() {
+		btnEl.remove()
 	})
 }
 
-button.addEventListener("click", addShopList)
+button.addEventListener("click", addWishList)
 input.addEventListener("keypress", addCreateList)
-
-
-// Creates initial events to the existing elements on the HTML
-liArray.forEach(function(element) {
-	addToggleEvent(element)
-	addCloseEvent(element)
+liArray.forEach(function(btnEl) {
+	addToggleEvent(btnEl)
+	addCloseEvent(btnEl)
 })
 

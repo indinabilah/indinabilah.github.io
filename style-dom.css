@@ -22,7 +22,7 @@ li {
   margin-left: 45px
 }
 li:hover {
-  background-color: palevioletred
+  background-color: pink
 }
 ul {
   background-image: linear-gradient(90deg, #d0a090 1px, #d0a090 1px), 
@@ -35,8 +35,8 @@ ul {
   display: inline-block;
   text-align: left;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  border: 5px solid salmon;
-  border: 5px solid #907166;
+  border: 5px solid palevioletred;
+  border: 5px solid palevioletred;
   padding: 24px;
   min-width: 250px;
 }
