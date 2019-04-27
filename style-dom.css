@@ -1,14 +1,63 @@
 html, body {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-  }
-
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: wheat;
+  background-image: url("img/bg-img.png");
+  background-size: cover;
+  color: deeppink
+}
+section {
+  text-align: center
+}
+h1 {
+  color: white;
+  font-size: 7vw;
+}
+h3 {
+  color: palevioletred;
+  font-size: 2vw
+}
 li {
   margin-left: 45px
 }
 li:hover {
   background-color: palevioletred
+}
+ul {
+  background-image: linear-gradient(90deg, #d0a090 1px, #d0a090 1px), 
+  linear-gradient(#fdf8c8, #fdf8c8 24px, #ccd 24px, #ccd 25px, #fdf8c8 25px);
+  background-size: 2px 100%, 100% 25px;
+  background-position: 40px top, left 0px;
+  background-repeat: no-repeat, repeat;
+  line-height: 25px !important;
+  background-attachment: local;
+  display: inline-block;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 5px solid salmon;
+  border: 5px solid #907166;
+  padding: 24px;
+  min-width: 250px;
+}
+.done {
+  text-decoration: wavy;
+  color: rgba(0,0,0,.3);
+}
+.removeBtn {
+  width: 15px;
+  height: 15px;
+  border-radius: 25%;
+  background-color: #d63752;
+  color: white;
+  border-style: none;
+  font-size: 0.7em;
+  text-indent: -2px;
+  opacity: 0.5;
+}
+.removeBtn:hover {
+  opacity: 0.8;
+  cursor: pointer
 }
 
 footer {
