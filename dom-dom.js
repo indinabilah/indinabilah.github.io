@@ -13,7 +13,6 @@ function createListElement() {
 	ul.appendChild(li)
 	input.value = ""
 	input.focus()
-
 	addToggleEvent(li)
 	addCloseEvent(li)
 }
@@ -49,7 +48,7 @@ function addCloseEvent(btnEl) {
 	createButton.appendChild(document.createTextNode("X"))
 	btnEl.appendChild(createButton)
 
-    
+
 	// tampil text input 
 	btnEl.innerHTML = btnEl.innerHTML + " " + ListOriginalValue
 
