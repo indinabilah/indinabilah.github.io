@@ -7,9 +7,6 @@ html, body {
   background-size: cover;
   color: deeppink
 }
-section {
-  text-align: center
-}
 h1 {
   color: white;
   font-size: 7vw;
@@ -71,8 +68,8 @@ footer {
   opacity: 0.75;
 }
 footer p {
-    font-family: 'Philosopher', sans-serif;
-    text-transform: uppercase;
-    font-size: 11px;
-    text-align: center;
+  font-family: 'Philosopher', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  text-align: center;
 }
